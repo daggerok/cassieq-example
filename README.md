@@ -22,8 +22,10 @@ TODO: CassieQ playground
     --header 'Accept: application/json' \
     -d '"demo"' 'http://localhost:8081/admin/api/v1/accounts'
   ```
-* get account
+* get accounts info
   ```bash
+  http :8081/admin/api/v1/accounts
+  # or
   curl -X GET \
     --header 'Content-Type: application/json' \
     --header 'Accept: application/json' \
